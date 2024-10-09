@@ -10,11 +10,16 @@ EBB42
 
 ## Flashing
 ### M5P
-Clone Katapult to your Pi  
+1. Clone Katapult to your Pi  
 
 ```
 cd ~  
 git clone https://github.com/Arksine/katapult
+```  
+2. Run the following commands to bring up the menu to configure the firmware  
 ```
-
-
+cd katapult
+make menuconfig
+```  
+3. Starting from the top, make your firmware selections look exactly like the image below  
+![m5pkatapult](img/m5pkatapult.png)
