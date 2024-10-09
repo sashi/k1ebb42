@@ -127,3 +127,35 @@ If no errors proceed and click the reset button  the M5P (If you see any mention
 ![m5pcan](img/m5pcan.png)  
 4. Place a jumper on the 120R header on the M5P  
 ![jumperm5p](img/jumperm5p.png)  
+
+
+## Flashing Klipper to EBB42
+1. Find your UUID  
+```
+sudo service klipper stop
+python3 ~/katapult/scripts/flashtool.py -i can0 -q
+```
+2. It should return something like: ***(Take note of the UUID that has "Application: Klipper. This is your UUID you will need for your M5P)***
+```
+"Detected UUID: XXXXXXXXXX, Application: Katapult"
+```
+3. Record the UUID. This is YOUR uuid and will be used for the next step and in your cfg files  
+4. Now its time to flash klipper via CAN! Run the following command, substituting your uuid: 
+```
+python3 ~/katapult/scripts/flashtool.py -i can0 -u b6d9de35f24f -f ~/klipper/out/klipper.bin
+```
+5. The EBB will be flashed and you should see a message about success, etc. Request for uuids again via:  
+```
+python3 ~/katapult/scripts/flashtool.py -i can0 -q
+```
+but now, notice how it shows Klipper for the application! Yay!  
+
+6. Restart klipper via  
+```
+sudo service klipper start
+```
+
+## Config
+1. For your M5P - you should now replace your serial with canbus_uuid: <your M5P UUID that you got in the previous step, step 2>  
+2. For your EBB42 - your UUID is the one you got in step 5  
+
