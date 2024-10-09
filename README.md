@@ -21,7 +21,7 @@ iface can0 can static
  pre-up ip link set can0 txqueuelen 1024
 ```
 3. Save the file with CTRL-o, ENTER, CTRL-x and reboot the pi with sudo reboot  
-4. Verify the network via ip -s link show can0 which should reflect that the CAN network is UP. If the network is not found, connect your U2C via USB and repeat the command to verify the can0 network is up.  
+4. Verify the network via ip -s link show can0 which should reflect that the CAN network is UP
 
 
 ## M5P
