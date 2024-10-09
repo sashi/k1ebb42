@@ -11,9 +11,10 @@ EBB42
 ## Flashing
 ### M5P
 Clone Katapult to your Pi  
-``
+
+```
 cd ~  
 git clone https://github.com/Arksine/katapult
-``
+```
 
 
