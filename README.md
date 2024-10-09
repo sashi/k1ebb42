@@ -8,8 +8,7 @@ EBB42
 4x M2.5 x 3mm flat head screws  
 2x M3 x 20mm screws  
 
-## Flashing
-### M5P
+## M5P
 1. Clone Katapult to your Pi  
 
 ```
@@ -44,3 +43,22 @@ make clean
 make
 ```
 If no errors continue  
+
+## Flashing Klipper to M5P
+1. With power on the M5P side of the board, press and hold down the boot button then click the reset button, allow a secund or two to pass then release the boot button  
+2. Run ``lsusb``  
+3. Look for STM in DFU Mode in the output text then proceed, if not try step 1 again  
+4. Run the following to flash katapult to M5P  
+```
+cd 
+sudo dfu-util -a 0 -D ~/katapult/out/canboot.bin --dfuse-address 0x08000000:force:mass-erase -d 0483:df11
+```
+If no errors proceed  
+5. Run the following to flash klipper to M5P
+```
+sudo dfu-util -a 0 -D ~/klipper/out/klipper.bin --dfuse-address 0x08002000:leave -d 0483:df11
+```
+6. If no errors proceed and click the reset button the M5P  
+
+## Building and Flashing for EBB42
+
