@@ -99,5 +99,15 @@ sudo dfu-util -a 0 -D ~/katapult/out/canboot.bin --dfuse-address 0x08000000:forc
 If no errors proceed and click the reset button  the M5P (If you see any mention of an error after the File downloaded >  message, it can be ignored.  
 ![flashok](img/flashok.png)
 9. Disconnect USB-C cable and remove the jumper
-10. Place a jumper on the 120R  
+10. Place a jumper on the 120R header on the EBB42  
 ![jumperebb](img/jumperebb.png)
+
+
+## Wiring
+1. Disconnect all power  
+2. Crimp the required wires to the molex connector on the EBB42  
+3. *** Triple check your VIN, GND, CAN_H, CAN_L match the connector side on the EBB and on the M5P side  
+![ebb42vin](img/ebb42vin.png)  
+![m5pcan](img/m5pcan.png)  
+4. Place a jumper on the 120R header on the M5P  
+![jumperm5p](img/jumperm5p.png)  
