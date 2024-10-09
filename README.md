@@ -29,7 +29,7 @@ make menuconfig
 make clean
 make
 ```
-If no errors continue
+If no errors continue  
 6. Run the following commands to bring up the menu to configure the firmware (Klipper)
 ```
 cd ~/klipper
@@ -43,4 +43,4 @@ make menuconfig
 make clean
 make
 ```
-If no errors continue
+If no errors continue  
