@@ -98,3 +98,6 @@ sudo dfu-util -a 0 -D ~/katapult/out/canboot.bin --dfuse-address 0x08000000:forc
 ```
 If no errors proceed and click the reset button  the M5P (If you see any mention of an error after the File downloaded >  message, it can be ignored.  
 ![flashok](img/flashok.png)
+9. Disconnect USB-C cable and remove the jumper
+10. Place a jumper on the 120R  
+![jumperebb](img/jumperebb.png)
