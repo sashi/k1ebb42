@@ -106,7 +106,7 @@ If no errors proceed and click the reset button  the M5P (If you see any mention
 ## Wiring
 1. Disconnect all power  
 2. Crimp the required wires to the molex connector on the EBB42  
-3. *** Triple check your VIN, GND, CAN_H, CAN_L match the connector side on the EBB and on the M5P side  
+3. ***Triple check your VIN, GND, CAN_H, CAN_L match the connector side on the EBB and on the M5P side***  
 ![ebb42vin](img/ebb42vin.png)  
 ![m5pcan](img/m5pcan.png)  
 4. Place a jumper on the 120R header on the M5P  
