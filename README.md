@@ -22,4 +22,25 @@ cd katapult
 make menuconfig
 ```  
 3. Starting from the top, make your firmware selections look exactly like the image below  
-![m5pkatapult](img/m5pkatapult.png)
+![m5pkatapult](img/m5pkatapult.png)  
+4. Exit using ESC or Q, then confirm with yes (Y)  
+5. Build the firmware using the following commands:  
+```
+make clean
+make
+```
+If no errors continue
+6. Run the following commands to bring up the menu to configure the firmware (Klipper)
+```
+cd ~/klipper
+make menuconfig
+```
+7. Starting from the top, make your firmware selections look exactly like the image below
+![klipperm5p](img/klipperm5p.png)  
+8. Exit using ESC or Q, then confirm with yes (Y)  
+9. Build the firmware using the following commands:
+```
+make clean
+make
+```
+If no errors continue
