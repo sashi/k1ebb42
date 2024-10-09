@@ -7,6 +7,8 @@ EBB42
 4x M2 Heatset Inserts (OD 3.5mm x L 3mm)  
 4x M2.5 x 3mm flat head screws  
 2x M3 x 20mm screws  
+5015 24v Fan (I recommend Sunon/GDSTIME/Honeybadger)    
+Toxas adapter & fan cover  
 
 
 ## Network 
