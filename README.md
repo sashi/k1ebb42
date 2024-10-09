@@ -72,8 +72,8 @@ make menuconfig
 
 2. Starting from the top, make your firmware selections look exactly like the image below  
 ![katapultebb](img/katapultebb.png)  
-3. Exit using ESC or Q, then confirm with yes (Y)
-4. Build the firmware using the following commands:
+3. Exit using ESC or Q, then confirm with yes (Y)  
+4. Build the firmware using the following commands:  
 ```
 make clean
 make
@@ -85,6 +85,8 @@ If no errors continue
 cd ~/klipper
 make menuconfig
 ``` 
+6. Starting from the top, make your firmware selections look exactly like the image below  
+![klipperebb](img/klipperebb.png)  
 4. Plug in a USB-C cable from the EBB42 to your Pi and set the USB jumper
 ![jumper](img/jumper.jpg)  
 5. Hold down the boot button and press the reset button, wait a second or two and then release the boot button  
