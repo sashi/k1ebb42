@@ -8,6 +8,22 @@ EBB42
 4x M2.5 x 3mm flat head screws  
 2x M3 x 20mm screws  
 
+
+## Network 
+1. Use nano to create a new file with the command sudo nano /etc/network/interfaces.d/can0  
+2. Add the following code  
+```
+allow-hotplug can0
+iface can0 can static
+ bitrate 1000000
+ up ifconfig $IFACE txqueuelen 1024
+ pre-up ip link set can0 type can bitrate 1000000
+ pre-up ip link set can0 txqueuelen 1024
+```
+3. Save the file with CTRL-o, ENTER, CTRL-x and reboot the pi with sudo reboot  
+4. Verify the network via ip -s link show can0 which should reflect that the CAN network is UP. If the network is not found, connect your U2C via USB and repeat the command to verify the can0 network is up.  
+
+
 ## M5P
 1. Clone Katapult to your Pi  
 
