@@ -1,5 +1,5 @@
 These instructions help you setup your K1 with EBB42 using M5P - No need U2C
-Thanks to EricZimmerman [guide](https://github.com/EricZimmerman/VoronTools/tree/main) and Maz0r
+Thanks to EricZimmerman [guides](https://github.com/EricZimmerman/VoronTools/tree/main) and Maz0r [work](https://github.com/maz0r/klipper_canbus)
 
 ## BOM
 EBB42    
@@ -10,4 +10,10 @@ EBB42
 
 ## Flashing
 ### M5P
+Clone Katapult to your Pi  
+``
+cd ~
+git clone https://github.com/Arksine/katapult
+``
+
 
