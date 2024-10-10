@@ -10,8 +10,7 @@ EBB42
 4x M2.5 x 3mm flat head screws  
 2x M3 x 20mm screws  
 5015 24v Fan (I recommend Sunon/GDSTIME/Honeybadger)    
-Toxas adapter & fan cover ([ebb42 v1.step](https://github.com/sashi/k1ebb42/blob/main/step/ebb42%20v1.step) & [BootyBurner_5015.stl](https://github.com/sashi/k1ebb42/blob/main/step/BootyBurner_5015.stl)    
-
+Toxas adapter & fan cover ([ebb42 v1.step](https://github.com/sashi/k1ebb42/blob/main/step/ebb42%20v1.step) & [BootyBurner_5015.stl](https://github.com/sashi/k1ebb42/blob/main/step/BootyBurner_5015.stl))  
 
 ## Network 
 1. Use nano to create a new file with the command sudo nano /etc/network/interfaces.d/can0  
