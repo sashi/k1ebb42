@@ -5,9 +5,9 @@ Thanks to Toxa#7441 (anarhyst266) on Discord for making the adapter and fan cove
 
 ## BOM
 EBB42    
-2x M3 Heatset Inserts (OD 4.2mm x L 3mm)  
-4x M2 Heatset Inserts (OD 3.5mm x L 3mm)  
-4x M2.5 x 3mm flat head screws  
+2x M3 Heatset Inserts (OD 4.2mm x L 3mm) (For BootyBurner 5015)  
+4x M2 Heatset Inserts (OD 3mm x L 3mm) (For EBB42)
+4x M2 x 3mm flat head screws  
 2x M3 x 20mm screws  
 5015 24v Fan (I recommend Sunon/GDSTIME/Honeybadger)    
 Toxas adapter & fan cover ([ebb42 v1.step](https://github.com/sashi/k1ebb42/blob/main/step/ebb42%20v1.step) & [BootyBurner_5015.stl](https://github.com/sashi/k1ebb42/blob/main/step/BootyBurner_5015.stl))  
