@@ -1,6 +1,6 @@
 These instructions help you setup your K1 with EBB42 v1.1, v.1.2 using M5P - No need U2C  
 Thanks to EricZimmerman [guides](https://github.com/EricZimmerman/VoronTools/tree/main) and Maz0r [work](https://github.com/maz0r/klipper_canbus)  
-Thanks to Toxa#7441 (anarhyst266) on Discord for making the adapter and fan cover
+Thanks to Toxa#7441 ([anarhyst266](https://github.com/Anarhyst266)) on Discord for making the adapter and fan cover
 
 
 ## BOM
@@ -10,7 +10,7 @@ EBB42
 4x M2 x 3mm flat head screws  
 2x M3 x 20mm screws  
 5015 24v Fan (I recommend Sunon/GDSTIME/Honeybadger)    
-Toxas adapter & fan cover ([ebb42 v1.step](https://github.com/sashi/k1ebb42/blob/main/step/ebb42%20v1.step) & [BootyBurner_5015.stl](https://github.com/sashi/k1ebb42/blob/main/step/BootyBurner_5015.stl))  
+Toxas adapter & fan cover ([ebb42_mount.step](https://github.com/sashi/k1ebb42/blob/main/step/ebb42_mount.step) & [BootyBurner_5015.stl](https://github.com/sashi/k1ebb42/blob/main/step/BootyBurner_5015.stl))
 
 ## Network 
 1. Use nano to create a new file with the command sudo nano /etc/network/interfaces.d/can0  
